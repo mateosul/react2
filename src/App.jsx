@@ -1,12 +1,12 @@
-import Navbar from "./Navbar"
-
 
 function App() {
   
 
   return (
-    <h1>hola mundo</h1>
-  )
+    <div>
+    <h1>Este es el App</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
