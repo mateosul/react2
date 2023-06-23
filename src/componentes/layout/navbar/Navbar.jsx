@@ -8,12 +8,12 @@ const Navbar = () => {
     <div className = "navContainer">
       <h4>DarkySTYLE</h4>
       <ul className = "containerCategories">
-        <li>Todas</li>
-        <li>Deportivas</li>
-        <li>About</li>
+        <li>Computadoras</li>
+        <li>Notebook</li>
+        <li>Mouse y teclado</li>
       </ul>
 
-      <CartWidget/>
+      <CartWidget />
 
     </div>
   )

@@ -2,16 +2,23 @@ import { useState } from "react";
 
 const Home = ( {nombre} ) => {
  
- let contador = 0;
+ const [contador , setContador ] = useState (0)
+ const [userName , setUserName] = useState ("Mateo")
+ console.log ("Me renderice")
 
  const sumar = () => {
-    contador = contador + 1
- };
+   setContador (contador + 1)
+ }
 
     return (
     <div style = {{padding: "0 20px"}}>
         <h1>Hola {nombre}</h1>
+        <h2>Hola {userName}</h2>
+        <button onClick={()=> setUserName ("Alejandro")}> Cambiar nombre </button>
+
+        <h2>{contador}</h2>
     
+<button onClick={sumar}>Sumar 1</button>
 
     </div>
   )
