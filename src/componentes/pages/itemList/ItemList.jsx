@@ -11,4 +11,4 @@ const ItemList = ({apellido}) => {
   )
 }
 
-export default ItemListContainer
+export default ItemList

@@ -5,9 +5,9 @@ import "./Navbar.css";
 const Navbar = () => {
 
   return (
-    <div ClassName = "navContainer">
+    <div className = "navContainer">
       <h4>DarkySTYLE</h4>
-      <ul ClassName = "containerCategories">
+      <ul className = "containerCategories">
         <li>Todas</li>
         <li>Deportivas</li>
         <li>About</li>
