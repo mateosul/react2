@@ -1,0 +1,539 @@
+.App {
+    text-align: center;
+  }
+  
+  .imgItem{
+    max-width: 100%;
+    max-height: 450px;
+  }
+  
+  .imgDetail{
+    max-width: 100%;
+    max-height: 480px;
+    margin: 20px 50px 20px 50px;
+    float: left;  
+    display: flex;
+  }
+  
+  .itemDetailContainer{
+    width: 1200px;
+    height: 500px;
+    margin: 50px 150px 20px 150px;
+    background-color: white;
+  
+  }
+  
+  .nameProduct{
+    font-family: 'Mohave', sans-serif;
+    font-weight: 0px;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-left: 540px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .detailItemProduct{
+    font-family: 'Rubik', sans-serif;
+      font-size: 15px;
+      text-align: left;
+      padding: 0px 100px 0px 540px;
+      margin-bottom: 0px;
+    }
+  
+  
+  .priceProduct{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 100px 0px 540px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .buttonsCount{
+    width: 340px;
+    float: right;  
+    background-color: white;
+    margin-right: 330px;
+  }
+  
+  .buttonCount{
+    background-color:  black ;
+    border: none;
+    color: white;
+    display: inline;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  }
+  
+  .textCount{
+    min-inline-size: 120px;
+    padding-inline-start: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:inline-flex;
+    background: white;
+    border-style: solid;
+    border-color:  black ;
+    border-width: 1.5px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .buttonOnAdd{
+    background-color:  black ;
+    border: none;
+    color: white;
+    width: 310px;
+    height: 40px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 15px;
+  }
+  
+  .avisoStock{
+    font-family: 'Rubik', sans-serif;
+    color: #6e6b6b;
+    margin: 0px;
+  }
+  
+  .finish{
+    background-color:  white ;
+    border-style: solid;
+    border-color:  #413c41 ;
+    border-width: 1.5px;
+    color: #413c41;
+    width: 190px;
+    height: 35px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    float: left;  
+    margin: 0px 100px 0px 120px;
+  
+  }
+  
+  .divItem{
+    background-color: #ece4ec    ;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+    font-family: 'Mohave', sans-serif;
+    box-shadow: 2px 2px 2px  2px #b5b5b5;
+  }
+  
+  .itemListContainer{
+    margin: 50px;
+  }
+  
+  .rocket{
+    display: block;
+    margin: 10% 50% 5%;
+  }
+  
+  a{
+    color: white;
+  }
+  
+  ul {
+    float: right;
+    margin-right: 100px;
+    /*text-align: right;*/
+    line-height: 70px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  
+  .logoSyn{
+    max-width: 170px;
+    max-height: 170px;
+  }
+  
+  .brand{
+    margin-left: 5%;
+    line-height: 100px;
+    float: left;
+  }
+  
+  .cartIcon{
+    width: 25px;
+    margin-bottom: 0px;
+    display: inline;
+    padding-bottom: 10px;
+  }
+  .countCart{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Mohave', sans-serif;
+    line-height: 80px;
+    vertical-align: 20px;
+    position: absolute;
+    bottom: -43px;
+  }
+  .cart{
+    background-color: white;
+    color: black;
+    max-width: 60px;
+    max-height: 40px;
+    line-height: 80px;
+    padding: 2px 20px 2px 5px;
+    border-radius: 22px;
+  }
+  
+  nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 90px;
+    font-family: 'Mohave', sans-serif;
+  }
+  
+  .footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 90px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 13px;
+    position:static; /*mantener el footer abajo*/
+    bottom: 0;
+    margin-top: 50px;
+  }
+  .textfooter{
+    padding-top: 40px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .detail{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mohave', sans-serif;
+  
+  }
+  .detailProduct{
+    background-color: #b5b5b5;
+    height: 30px;
+    padding-top: 10px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .button-row {
+    display: inline-flex;
+  }
+  .button-row > div {
+  position: relative;
+  width: 160px;
+  height: 60px;
+  margin: 0 0px;
+  }
+  .button-row > div > p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  }
+  .button-row > div > p:hover{
+    text-decoration: underline;
+  }
+  .detail:hover{
+    text-decoration: underline;
+  }
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: black;
+    animation: spin 1s ease infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading{
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  .titleCarrito{
+    left: 50%;
+    margin-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+  }
+  
+  .divCartAttributes{
+    background-color: white;
+    height: 45px;
+    border-bottom: 1px #b5b5b5 ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: #b5b5b5;
+    margin: 0px 100px;
+  }
+  
+  .categoryCart{
+    display: inline;
+  }
+  
+  .product{
+  float: left;
+  text-align: left;
+  margin-left: 50px;
+  width: 600px;
+  }
+  
+  .price{
+    float: left;
+    text-align: center;
+    width: 150px;
+  }
+  .count{
+    float: left;
+    text-align: center;
+    width: 150px;
+  }
+  .subtotal{
+    float: left;
+    text-align: center;
+    width: 150px;
+  }
+  .imgCart{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px 30px 40px 50px;
+  }
+  .nameDescription{
+    display: inline;
+    float: left;
+    width: 420px;
+    text-align: left;
+    line-height: 130px;
+  }
+  .nameLink{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+  }
+  .nameLink:hover{
+    text-decoration: underline;
+  }
+  .priceDescription{
+    display: inline;
+    width: 150px;
+    line-height: 120px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+  .countDescription{
+    display: inline;
+    width: 150px;
+    line-height: 120px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+  .divCartItem{
+    margin: 10px 100px;
+    display:flex;
+  }
+  .imgtrash{
+    width: 25px;
+    height: 25px;
+    margin-top: 70px;
+    margin-left: 62px;
+  }
+  
+  .divCartFinish{
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+    border-top: 1px #b5b5b5 ;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+  .total{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #b5b5b5;
+    float: left;
+    width: 150px;
+    text-align: left;
+  }
+  .numbertotal{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: black;
+    float: right;
+    width: 150px;
+  }
+  .finalizarCompra{
+    width: 400px;
+    float: right;
+    margin-right: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  .finalizarCompra2{
+    width: 400px;
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin-right: 50px;
+    padding: 10px 0px;
+  
+  }
+  .cartEmpty{
+    height: 470px;
+  }
+  .comeback{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 60px;
+  }
+  .comeback:hover{
+    text-decoration: underline;
+  }
+  .empty{
+    margin-bottom: 50px;
+    margin-top: 130px;
+    font-size: 30px;
+  }
+  .cartempty{
+    background-color: black;
+  }
+  .labelblock{
+    display: block;
+  }
+  .labelform{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+  }
+  .inputform{
+    width: 390px;
+    height: 20px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  .informationDetail{
+    margin-top: 70px;
+    display: inline-block;}
+  .cartWidht{
+    display: inline-block;
+  }
+  .itemsInformationDetail{
+    width: 21%;
+    margin-left: 200px;
+    float: left;
+    
+  }
+  .contentInformationDetail{
+    width: 50%;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-left: 1px #b5b5b5 ;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-left: 60px;}
+  .itemsOptions{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+    font-size: 17px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 70px;
+    text-align: left;
+  }
+  .itemsOptions:hover{
+    text-decoration: none;
+  }
+  .desc{
+    max-width: 800px;
+  }
+  .title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: left;
+  }
+  .title2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .textdetails{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-align: left;
+  }
